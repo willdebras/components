@@ -7,4 +7,9 @@ export const COLORS = {
   black: 'hsl(0deg 0% 0%)',
   transparentGray15: 'hsl(0deg 0% 50% / 0.15)',
   transparentGray35: 'hsl(0deg 0% 50% / 0.35)',
+  primaryNewline: 'hsl(231, 36%, 45%)',
+  textNewline: 'hsl(231, 38%, 21%)',
+  secondaryNewline: 'hsl(197, 100%, 90%)',
+  hoverNewline: 'hsl(196, 96%, 90%)',
+  
 };
