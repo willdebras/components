@@ -1,0 +1,28 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import GhostButton from './GhostButton';
+
+<Meta
+  title="GhostButton"
+  component={GhostButton}
+  argTypes={{
+    size: {
+      control: {
+        type: 'select',
+        options: ['small', 'medium', 'large'],
+      },
+    },
+  }}
+/>
+
+export const Template = (args) => <GhostButton {...args}>Learn more</GhostButton>;
+
+# GhostButton
+
+<Story
+  name="Default"
+  args={{
+    size: 'medium',
+  }}
+>
+  {Template.bind({})}
+</Story>
