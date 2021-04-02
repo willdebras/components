@@ -16,8 +16,6 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006 -s public",
-    "start": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -o docs-build"
   },
   "eslintConfig": {

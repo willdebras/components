@@ -43,6 +43,7 @@ const SIZES = {
   };
   
   const Wrapper= styled.div`
+  
   `
   
   const ButtonElem = styled.button`
