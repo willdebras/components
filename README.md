@@ -16,6 +16,8 @@ These styled components were created to resemble this [beautiful Figma mockup](h
 
 - A [newline.co](https://www.newline.co/) inspired button featuring a ghastly shadow with various size parameters
 
+- A CSS typewriter component inspired by [Kevin Powell](https://www.youtube.com/watch?v=w1nhwUGsG6M&list=WL&index=65)
+
 ### Future creations
 
 The plan for this repo is to build out many more components as I find inspiration to progress my skills in React and styled-components.
