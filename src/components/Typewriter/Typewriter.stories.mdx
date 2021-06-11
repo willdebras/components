@@ -1,0 +1,43 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import Typewriter from './Typewriter';
+
+<Meta
+  title="Typewriter"
+  component={Typewriter}
+  argTypes={{
+    size: {
+      control: {
+        type: 'number',
+        min: 0,
+        max: 100,
+      },
+    },
+    speed: {
+      control: {
+        type: 'number',
+        min: 0,
+        max: 100,
+      },
+    bg: {
+       control: {
+        type: 'text',
+      },
+    }
+    },
+  }}
+/>
+
+export const Template = (args) => <Typewriter {...args}>Hello, my name is Will</Typewriter>;
+
+# Typewriter
+
+<Story
+  name="Default"
+  args={{
+    size: 14,
+    speed: 6,
+    bg: "white"
+  }}
+>
+  {Template.bind({})}
+</Story>
