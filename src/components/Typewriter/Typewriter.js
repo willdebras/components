@@ -23,7 +23,6 @@ import { keyframes } from 'styled-components';
 
     )
     
-
   };
 
   const TypeWriterAnim = keyframes`
