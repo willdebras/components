@@ -1,5 +1,6 @@
 module.exports = {
   "stories": [
+    '../src/docs/Intro/intro.stories.mdx', // default page
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
